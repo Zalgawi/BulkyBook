@@ -6,3 +6,11 @@ C:\Users\Josh\source\repos\BulkyBook.Models\obj\Debug\netcoreapp3.1\BulkyBook.Mo
 C:\Users\Josh\source\repos\BulkyBook.Models\obj\Debug\netcoreapp3.1\BulkyBook.Models.AssemblyInfo.cs
 C:\Users\Josh\source\repos\BulkyBook.Models\obj\Debug\netcoreapp3.1\BulkyBook.Models.dll
 C:\Users\Josh\source\repos\BulkyBook.Models\obj\Debug\netcoreapp3.1\BulkyBook.Models.pdb
+C:\Users\Josh\source\repos\BulkyBook\BulkyBook.Models\bin\Debug\netcoreapp3.1\BulkyBook.Models.deps.json
+C:\Users\Josh\source\repos\BulkyBook\BulkyBook.Models\bin\Debug\netcoreapp3.1\BulkyBook.Models.dll
+C:\Users\Josh\source\repos\BulkyBook\BulkyBook.Models\bin\Debug\netcoreapp3.1\BulkyBook.Models.pdb
+C:\Users\Josh\source\repos\BulkyBook\BulkyBook.Models\obj\Debug\netcoreapp3.1\BulkyBook.Models.csprojAssemblyReference.cache
+C:\Users\Josh\source\repos\BulkyBook\BulkyBook.Models\obj\Debug\netcoreapp3.1\BulkyBook.Models.AssemblyInfoInputs.cache
+C:\Users\Josh\source\repos\BulkyBook\BulkyBook.Models\obj\Debug\netcoreapp3.1\BulkyBook.Models.AssemblyInfo.cs
+C:\Users\Josh\source\repos\BulkyBook\BulkyBook.Models\obj\Debug\netcoreapp3.1\BulkyBook.Models.dll
+C:\Users\Josh\source\repos\BulkyBook\BulkyBook.Models\obj\Debug\netcoreapp3.1\BulkyBook.Models.pdb
