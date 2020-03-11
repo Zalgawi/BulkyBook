@@ -11,6 +11,7 @@ namespace BulkyBook.DataAccess.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {
+
         private readonly ApplicationDbContext _db;
         internal DbSet<T> dbSet;
 
@@ -34,24 +35,23 @@ namespace BulkyBook.DataAccess.Repository
         {
             IQueryable<T> query = dbSet;
 
-            if(filter != null)
+            if (filter != null)
             {
                 query = query.Where(filter);
             }
 
-            if(includeProperties != null)
+            if (includeProperties != null)
             {
-                foreach(var includeProp in includeProperties.Split(new char[] { ','}, StringSplitOptions.RemoveEmptyEntries))
+                foreach (var includeProp in includeProperties.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                 {
                     query = query.Include(includeProp);
                 }
             }
 
-            if(orderBy != null)
+            if (orderBy != null)
             {
                 return orderBy(query).ToList();
             }
-
             return query.ToList();
         }
 
@@ -72,7 +72,6 @@ namespace BulkyBook.DataAccess.Repository
                 }
             }
 
-            
 
             return query.FirstOrDefault();
         }
